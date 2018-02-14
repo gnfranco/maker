@@ -4,32 +4,40 @@
       "name": "PETE",
       "maintainer": "PETE Com. Mat. Did. e Ped. Ltda.",
       "websiteURL": "https://www.pete.com.br",
-      "email": "  ",
+      "email": "glauber@pete.com.br",
       "help": {
-        "online": "https://www.pete.com.br"
+        "online": "https://github.com/gnfranco/maker"
       },
       "platforms": [
         {
-          "name": "PETE",
+          "name": "PETE Boards",
           "architecture": "avr",
           "version": "1.5.3",
           "category": "Contributed",
+          "help": {
+            "online": "https://github.com/gnfranco/maker"
+          },
           "url": "https://github.com/gnfranco/maker/blob/master/maker-avr/maker-avr-v1.5.3.zip",
           "archiveFileName": "maker-avr-v1.5.3.zip",
           "checksum": "SHA-256:1c047256675919dc6ea300543bd039478a7f478e754a63041b7d52038e53e35e",
           "size": "1907053",
-          "help": {
-            "online": "https://github.com/gnfranco/maker"
-          },
+
           "boards": [
+            { "name": " Alpha Maker" },
+            { "name": " Alpha Maker com USB" }
+          ],
+          "toolsDependencies": [
             {
-              "name": " Alpha Maker"
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.8.1-arduino5"
             },
             {
-              "name": " Alpha Maker com USB"
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.0.1-arduino5"
             }
-          ],
-          "toolsDependencies": []
+          ]
         }
       ],
       "tools": []
