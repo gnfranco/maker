@@ -1,42 +1,38 @@
 {
-   "packages":
-   [
-      {
-         "name": "PETE",
-         "maintainer": "PETE Com. Mat. Did. e Ped. Ltda.",
-         "websiteURL": "https://www.pete.com.br",
-         "email": "glauber@pete.com.br",
-         "help":
-         {
-          "online": "https://www.pete.com.br",
+  "packages": [
+    {
+      "name": "PETE",
+      "maintainer": "PETE Com. Mat. Did. e Ped. Ltda.",
+      "websiteURL": "https://www.pete.com.br",
+      "email": "",
+      "help": {
+        "online": "https://www.pete.com.br"
+      },
+      "platforms": [
+        {
+          "name": "PETE",
+          "architecture": "avr",
+          "version": "1.5.3",
+          "category": "Contributed",
+          "url": "https://github.com/gnfranco/maker/blob/master/maker-avr/maker-avr-v1.5.3.zip",
+          "archiveFileName": "maker-avr-v1.5.3.zip",
+          "checksum": "SHA-256:1c047256675919dc6ea300543bd039478a7f478e754a63041b7d52038e53e35e",
+          "size": "1907053",
+          "help": {
+            "online": "https://github.com/gnfranco/maker"
           },
-         "platforms":[
+          "boards": [
             {
-               "name": "PETE",
-               "architecture": "avr",
-               "version": "1.5.3",
-               "category": "Contributed",
-               "url": "https://github.com/gnfranco/maker/blob/master/maker-avr/maker-avr-v1.5.3.zip",
-               "archiveFileName": "maker-avr-v1.5.3.zip",
-               "checksum": "SHA-256:1c047256675919dc6ea300543bd039478a7f478e754a63041b7d52038e53e35e",
-               "size": "1907053",
-               "help": 
-               {
-					"online": "https://github.com/gnfranco/maker",
-               },
-               "boards": [
-                  {
-                     "name":" Alpha Maker"
-                  },
-                  {
-                     "name":" Alpha Maker com USB"
-                  },
-               ],
-               "toolsDependencies":[]
+              "name": " Alpha Maker"
             },
+            {
+              "name": " Alpha Maker com USB"
+            }
           ],
-          "tools": []
-        },
-    ],
-},
-            
+          "toolsDependencies": []
+        }
+      ],
+      "tools": []
+    }
+  ]
+}
