@@ -1,12 +1,12 @@
 {
   "packages": [
     {
-      "name": "PETE",
-      "maintainer": "PETE Com. Mat. Did. e Ped. Ltda.",
+      "name": "PETE AVR Boards",
+      "maintainer": "PETE",
       "websiteURL": "https://www.pete.com.br",
       "email": "glauber@pete.com.br",
       "help": {
-      "online": "https://github.com/gnfranco/maker"
+        "online": "www.pete.com.br"
       },
       "platforms": [
         {
@@ -23,8 +23,8 @@
           "size": "1902039",
 
           "boards": [
-            { "name": " Alpha Maker" },
-            { "name": " Alpha Maker com USB" }
+            { "name": "Alpha Maker" },
+            { "name": "Alpha Maker com USB" }
           ],
           "toolsDependencies": [
             {
@@ -40,7 +40,9 @@
           ]
         }
       ],
-      "tools": []
+      "tools": [
+        {}
+      ]
     }
   ]
 }
