@@ -1,48 +1,48 @@
 {
   "packages": [
-    {
-      "name": "PETE AVR Boards",
-      "maintainer": "PETE",
-      "websiteURL": "https://www.pete.com.br",
-      "email": "glauber@pete.com.br",
-      "help": {
-        "online": "www.pete.com.br"
-      },
-      "platforms": [
-        {
-          "name": "PETE Boards",
-          "architecture": "avr",
-          "version": "1.0.3",
-          "category": "Contributed",
-          "help": {
-            "online": "https://github.com/gnfranco/maker"
-          },
-          "url": "https://github.com/gnfranco/maker/blob/master/maker/maker-v1.0.3.zip",
-          "archiveFileName": "maker-v1.0.3.zip",
-          "checksum": "SHA-256:ab9436d8bad52681f8e95cafc8b73b086f0c722ea549e74a19612e1e03b1e656",
-          "size": "1900757",
+	{
+	  "name": "PETE AVR Boards",
+	  "maintainer": "PETE",
+	  "websiteURL": "https://www.pete.com.br",
+	  "email": "glauber@pete.com.br",
+	  "help": {
+		"online": "www.pete.com.br"
+	  },
+	  "platforms": [
+		{
+		  "name": "PETE Boards",
+		  "architecture": "avr",
+		  "version": "1.0.3",
+		  "category": "Contributed",
+		  "help": {
+			"online": "https://github.com/gnfranco/maker"
+		  },
+		  "url": "https://github.com/gnfranco/maker/blob/master/maker/maker-v1.0.3.zip",
+		  "archiveFileName": "maker-v1.0.3.zip",
+		  "checksum": "SHA-256:ab9436d8bad52681f8e95cafc8b73b086f0c722ea549e74a19612e1e03b1e656",
+		  "size": "1900757",
 
-          "boards": [
-            { "name": "Alpha Maker" },
-            { "name": "Alpha Maker com USB" }
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "arduino",
-              "name": "avr-gcc",
-              "version": "4.8.1-arduino5"
-            },
-            {
-              "packager": "arduino",
-              "name": "avrdude",
-              "version": "6.0.1-arduino5"
-            }
-          ]
-        }
-      ],
-      "tools": [
-        {}
-      ]
-    }
+		  "boards": [
+			{ "name": "Alpha Maker" },
+			{ "name": "Alpha Maker com USB" }
+		  ],
+		  "toolsDependencies": [
+			{
+			  "packager": "arduino",
+			  "name": "avr-gcc",
+			  "version": "4.8.1-arduino5"
+			},
+			{
+			  "packager": "arduino",
+			  "name": "avrdude",
+			  "version": "6.0.1-arduino5"
+			}
+		  ]
+		}
+	  ],
+	  "tools": [
+		{}
+	  ]
+	}
   ]
 }
