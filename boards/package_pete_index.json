@@ -17,7 +17,7 @@
         "help": {
           "online": "https://github.com/gnfranco/maker"
         },
-        "url": "https://www.dropbox.com/s/l82z5vutt7nuvtf/maker_avr-1.1.0.zip?dl=0",
+        "url": "https://github.com/gnfranco/maker/blob/master/boards/maker-avr/maker-avr-1.1.0-win.zip",
         "archiveFileName": "maker-avr-1.1.0-win.zip",
         "checksum": "SHA-256:a1e8f68357870f95a54cf3e2cb95c7ee9433bc8632df8947e97f103847275bb2",
         "size": "1956034",
@@ -31,6 +31,11 @@
             "packager": "arduino",
             "name": "avr-gcc",
             "version": "4.8.1-arduino5"
+          },
+          {
+            "packager": "arduino",
+            "name": "avrdude",
+            "version": "6.0.1-arduino5"
           }
         ]
       }
