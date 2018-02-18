@@ -12,15 +12,15 @@
       {
         "name": "PETE Boards",
         "architecture": "avr",
-        "version": "1.0.3",
+        "version": "1.1.0",
         "category": "Contributed",
         "help": {
           "online": "https://github.com/gnfranco/maker"
         },
-        "url": "https://github.com/gnfranco/maker/blob/master/maker/maker-1.0.3.zip",
-        "archiveFileName": "maker-1.0.3.zip",
-        "checksum": "SHA-256:24cced2c0192c7eea6d6c12525bdb9e48a43fa79d3c427671688f31bb2b57ac2",
-        "size": "1899183",
+        "url": "https://github.com/gnfranco/maker/blob/master/boards/maker-avr/maker-avr-1.1.0-win.zip",
+        "archiveFileName": "maker-avr-1.1.0-win.zip",
+        "checksum": "SHA-256:a1e8f68357870f95a54cf3e2cb95c7ee9433bc8632df8947e97f103847275bb2",
+        "size": "1956034",
 
         "boards": [
           { "name": "Alpha Maker" },
