@@ -17,7 +17,7 @@
             { "name": "Alpha Maker" },
             { "name": "Alpha Maker com USB" }
           ],
-          "category": "PETE",
+          "category": "Arduino@Heart",
           "checksum": "SHA-256:71b78edd3c5a7e663e02b40c9f5aab8c63998063aab2a1fb46410759435c8a8e",
           "help": {
             "online": "https://github.com/gnfranco/maker"
@@ -25,7 +25,7 @@
           "name": "PETE Boards",
           "size": "1120514",
           "toolsDependencies": [],
-          "url": "https: //github.com/gnfranco/maker/blob/master/boards/maker-avr/maker_avr-1.1.0.tar.bz2",
+          "url": "https://github.com/gnfranco/maker/raw/master/boards/maker-avr/maker_avr-1.1.0.tar.bz2",
           "version": "1.1.0"
         }
       ],
