@@ -1,35 +1,78 @@
 {
-  
+
   "packages": [
     {
-      "name": "pete",
-      "maintainer": "PETE",
-      "websiteURL": "https://www.pete.com.br",
+
       "email": "glauber@pete.com.br",
+      "maintainer": "Pete",
+      "websiteURL": "https://www.pete.com.br",
       "help": {
-        "online": "https://www.pete.com.br"
+        "online": "https://github.com/gnfranco/maker"
       },
+      "name": "Pete",
       "platforms": [
         {
+          "name": "Pete AVR Boards",
+          "version": "0.1.2",
+          "category": "Contributed",
           "architecture": "avr",
-          "archiveFileName": "maker_avr-1.1.0.tar.bz2",
+          "url": "https://github.com/gnfranco/maker/raw/master/boards/maker-avr/maker_avr-0.1.2.tar.bz2",
+          "archiveFileName": "maker_avr-0.1.2.tar.bz2",
+          "checksum": "SHA-256:71b78edd3c5a7e663e02b40c9f5aab8c63998063aab2a1fb46410759435c8a8e",
+          "size": "1120514",
           "boards": [
             { "name": "Alpha Maker" },
             { "name": "Alpha Maker com USB" }
           ],
-          "category": "PETE",
-          "checksum": "SHA-256:71b78edd3c5a7e663e02b40c9f5aab8c63998063aab2a1fb46410759435c8a8e",
-          "help": {
-            "online": "https://github.com/gnfranco/maker"
-          },
-          "name": "PETE AVR Boards",
-          "size": "1120514",
-          "toolsDependencies": [],
-          "url": "https://github.com/gnfranco/maker/raw/master/boards/maker-avr/maker_avr-1.1.0.tar.bz2",
-          "version": "1.1.0"
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "version": "4.8.1-arduino5",
+              "name": "avr-gcc"
+            },
+            {
+              "packager": "Pete",
+              "version": "0.7.2-arduino5",
+              "name": "dfu-programmer"
+            }
+          ]
+
         }
       ],
-      "tools": []
-    }
-  ]
+      "tools": [
+        {
+          "name": "dfu-programmer",
+          "version": "0.7.2-arduino5",
+          "systems": [
+            /*{
+              "size": "30587705",
+              "checksum": "SHA-256:5b705d26dc1d8ca8953df6e0c08dcc8584d5be77b584d561f631360fd166677c",
+              "host": "i386-apple-darwin11",
+              "archiveFileName": "galileo-toolchain-20150323-osx.tar.bz2",
+              "url": "http://downloadmirror.intel.com/24806/eng/galileo-toolchain-osx-1.6.2-1.0.tar.bz2"
+            },*/
+            {
+              "size": "123379",
+              "checksum": "SHA-256:3f17c65422ada8d06154bedcb92451b38f212c453c02e6bd1f18fc9a0f854a3e",
+              "host": "i686-mingw32",
+              "archiveFileName": "dfu-programmer-win-0.7.2.tar.bz2",
+              "url": "https://github.com/gnfranco/maker/raw/master/tools/dfu-programmer-win-0.7.2.tar.bz2"
+            },
+            /*{
+              "size": "56227185",
+              "checksum": "SHA-256:935ccad3eaaec34f5de76eceb0f0ecd1372bdab0b7dc8f4241e8260c6f827b72",
+              "host": "x86_64-linux-gnu",
+              "archiveFileName": "galileo-toolchain-20150316-linux64.tar.bz2",
+              "url": "http://downloadmirror.intel.com/24806/eng/galileo-toolchain-linux64-1.6.2-1.0.tar.bz2"
+            },*/
+            /*{
+              "size": "55098166",
+              "checksum": "SHA-256:1dab7f21e10d0208a6dd2897c36c6f5f55f9372b947225d2b59c3c4ab4777d03",
+              "host": "i686-linux-gnu",
+              "archiveFileName": "galileo-toolchain-20150316-linux32.tar.bz2",
+              "url": "http://downloadmirror.intel.com/24806/eng/galileo-toolchain-linux32-1.6.2-1.0.tar.bz2"
+            }*/
+          ]
+        }
+      ]
 }

@@ -1,0 +1,31 @@
+# Pete Board Configuration
+#
+# For more information see:
+# * https://github.com/arduino/Arduino/wiki/Arduino-IDE-1.5---3rd-party-Hardware-specification
+# * https://github.com/arduino/Arduino/wiki/Arduino-Hardware-Cores-migration-guide-from-1.0-to-1.6
+
+##############################################################
+AT90usb128716.name=Alpha Maker
+AT90usb128716.upload.tool=bisp
+AT90usb128716.bootloader.tool=bisp
+AT90usb128716.build.mcu=at90usb1287
+AT90usb128716.build.f_cpu=16000000L
+AT90usb128716.build.f_usb=16000000L
+AT90usb128716.build.vid=0x2341
+AT90usb128716.build.pid=0x8036
+AT90usb128716.build.core=AT90USB
+AT90usb128716.build.variant=at90usb128X
+AT90usb128716.build.extra_flags=-DARCH=ARCH_AVR8 -DUSE_FLASH_DESCRIPTORS -DF_USB={build.f_usb} -DBOARD=NONE
+
+##############################################################
+AT90usb128716U.name=Alpha Maker com USB
+AT90usb128716U.upload.tool=bisp
+AT90usb128716U.bootloader.tool=bisp
+AT90usb128716U.build.mcu=at90usb1287
+AT90usb128716U.build.f_cpu=16000000L
+AT90usb128716U.build.f_usb=16000000L
+AT90usb128716U.build.vid=0x2341
+AT90usb128716U.build.pid=0x8036
+AT90usb128716U.build.core=AT90USB
+AT90usb128716U.build.variant=at90usb128X
+AT90usb128716U.build.extra_flags=-DARCH=ARCH_AVR8 -DUSE_FLASH_DESCRIPTORS -DF_USB={build.f_usb} -DUSE_USB_SERIAL -DBOARD=NONE
