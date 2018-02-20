@@ -6,7 +6,7 @@
 
 # Arduino AVR Core and platform.
 # ------------------------------
-name=pete-avr
+name=Pete AVR Boards
 version=0.1.2-arduino5
 
 # AVR compile variables
