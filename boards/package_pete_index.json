@@ -45,13 +45,17 @@
           "version": "0.7.2-arduino5",
           "systems": [
             {
-              "size": "123379",
-              "checksum": "SHA-256:3f17c65422ada8d06154bedcb92451b38f212c453c02e6bd1f18fc9a0f854a3e",
+
               "host": "i686-mingw32",
+              "url": "https://github.com/gnfranco/maker/raw/master/tools/dfu-programmer-win-0.7.2.tar.bz2",
               "archiveFileName": "dfu-programmer-win-0.7.2.tar.bz2",
-              "url": "https://github.com/gnfranco/maker/raw/master/tools/dfu-programmer-win-0.7.2.tar.bz2"
+              "checksum": "SHA-256:3f17c65422ada8d06154bedcb92451b38f212c453c02e6bd1f18fc9a0f854a3e",
+              "size": "123379"
             }
           ]
         }
       ]
+
+    }
+  ]
 }
