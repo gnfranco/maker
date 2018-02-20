@@ -18,8 +18,8 @@
           "architecture": "avr",
           "url": "https://github.com/gnfranco/maker/raw/master/boards/maker-avr/maker_avr-0.1.2.tar.bz2",
           "archiveFileName": "maker_avr-0.1.2.tar.bz2",
-          "checksum": "SHA-256:71b78edd3c5a7e663e02b40c9f5aab8c63998063aab2a1fb46410759435c8a8e",
-          "size": "1120514",
+          "checksum": "SHA-256:d76d90240ca99b3ffa3b0c7af51782055f076578e92fb7b6aa07f30432af30d8",
+          "size": "1121180",
           "boards": [
             { "name": "Alpha Maker" },
             { "name": "Alpha Maker com USB" }
