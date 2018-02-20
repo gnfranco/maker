@@ -7,7 +7,7 @@
 # Arduino AVR Core and platform.
 # ------------------------------
 name=Pete AVR Boards
-version=0.1.2-arduino5
+version=0.1.3-arduino5
 
 # AVR compile variables
 # --------------------- 
@@ -89,8 +89,8 @@ tools.avrdudeDP.bootloader.pattern="{cmd.path}" "-C{config.path}" {bootloader.ve
 
 # AVR-dfu Uploader/Programmers tools
 # ------------------------------
-#tools.bisp.path=/home/rafael/Downloads/flip.3.2.1/bin
-tools.bisp.cmd.path=batchisp.exe
+tools.bisp.path={runtime.tools.dfu-programmer.path}
+tools.bisp.cmd.path=dfu-programmer.exe
 
 tools.bisp.upload.params.verbose=-v
 tools.bisp.upload.params.quiet=-v

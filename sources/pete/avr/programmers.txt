@@ -4,12 +4,7 @@
 #  https://github.com/arduino/Arduino/wiki/Arduino-IDE-1.5---3rd-party-Hardware-specification
 #  https://github.com/arduino/Arduino/wiki/Arduino-Hardware-Cores-migration-guide-from-1.0-to-1.6
 
-#olimexV2.name=Olimex STK500v2
-#olimexV2.communication=serial
-#olimexV2.protocol=stk500v2
-#olimexV2.speed=9600
-
-bisp.name=Alpha Maker
+bisp.name=Pete USB
 bisp.communication=usb
 bisp.protocol=flip
 bisp.program.protocol=flip

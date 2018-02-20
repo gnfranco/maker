@@ -37,6 +37,33 @@
             }
           ]
 
+        },
+        {
+          "name": "Pete AVR Boards",
+          "version": "0.1.3",
+          "category": "Contributed",
+          "architecture": "avr",
+          "url": "https://github.com/gnfranco/maker/raw/master/boards/maker-avr/maker_avr-0.1.3.tar.bz2",
+          "archiveFileName": "maker_avr-0.1.3.tar.bz2",
+          "checksum": "SHA-256:090b0d393a85058308e1bd89e59b3f42b9dd5e6c744b046496f21442f6749147",
+          "size": "1121041",
+          "boards": [
+            { "name": "Alpha Maker" },
+            { "name": "Alpha Maker com USB" }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "version": "4.8.1-arduino5",
+              "name": "avr-gcc"
+            },
+            {
+              "packager": "Pete",
+              "version": "0.7.2-arduino5",
+              "name": "dfu-programmer"
+            }
+          ]
+
         }
       ],
       "tools": [
