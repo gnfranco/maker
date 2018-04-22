@@ -64,7 +64,35 @@
             }
           ]
 
+        },
+        {
+          "name": "Pete AVR Boards",
+          "version": "0.1.4",
+          "category": "Contributed",
+          "architecture": "avr",
+          "url": "https://github.com/gnfranco/maker/raw/master/boards/maker-avr/maker_avr-0.1.3.tar.bz2",
+          "archiveFileName": "maker_avr-0.1.3.tar.bz2",
+          "checksum": "SHA-256:090b0d393a85058308e1bd89e59b3f42b9dd5e6c744b046496f21442f6749147",
+          "size": "1121041",
+          "boards": [
+            { "name": "Alpha Maker" },
+            { "name": "Alpha Maker com USB" }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "version": "4.8.1-arduino5",
+              "name": "avr-gcc"
+            },
+            {
+              "packager": "Pete",
+              "version": "3.2.1-arduino5",
+              "name": "avr-flip-programmer"
+            }
+          ]
+
         }
+
       ],
       "tools": [
         {
@@ -78,6 +106,26 @@
               "archiveFileName": "dfu-programmer-win-0.7.2.tar.bz2",
               "checksum": "SHA-256:710f958ab4f15295f13d4f8271048629164215e97ce4bfa3627d2b9bd980779d",
               "size": "350440"
+            }
+          ]
+        },
+        {
+          "name": "avr-flip-programmer",
+          "version": "3.2.1-arduino",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/gnfranco/maker/raw/master/tools/flip_linux_3-2-1.tgz",
+              "archiveFileName": "flip_linux_3-2-1.tgz",
+              "checksum": "SHA-256:7792af3e5f201169b215ed60fab41829f2e6f350b58cebb5738c4af4af4f8878",
+              "size": "1288245"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://github.com/gnfranco/maker/raw/master/tools/flip_linux_3-2-1.tgz",
+              "archiveFileName": "flip_linux_3-2-1.tgz",
+              "checksum": "SHA-256:7792af3e5f201169b215ed60fab41829f2e6f350b58cebb5738c4af4af4f8878",
+              "size": "1288245"
             }
           ]
         }
