@@ -115,17 +115,17 @@
           "systems": [
             {
               "host": "i686-mingw32",
-              "url": "https://github.com/gnfranco/maker/raw/master/tools/flip-win-3.2.1.tgz",
-              "archiveFileName": "flip_win_3.2.1.tgz",
-              "checksum": "SHA-256:7792af3e5f201169b215ed60fab41829f2e6f350b58cebb5738c4af4af4f8878",
-              "size": "1288245"
+              "url": "https://github.com/gnfranco/maker/raw/master/tools/flip-win-3.2.1.zip",
+              "archiveFileName": "flip-win-3.2.1.zip",
+              "checksum": "SHA-256:3268e679a3fe84b4d048d5573cdff8b71e777a7e55912a80b3c518440d0e60e4",
+              "size": "1346059"
             },
             {
               "host": "i686-pc-linux-gnu",
-              "url": "https://github.com/gnfranco/maker/raw/master/tools/flip-linux-3.2.1.tgz",
-              "archiveFileName": "flip_linux_3.2.1.tgz",
-              "checksum": "SHA-256:7792af3e5f201169b215ed60fab41829f2e6f350b58cebb5738c4af4af4f8878",
-              "size": "1288245"
+              "url": "https://github.com/gnfranco/maker/raw/master/tools/flip-linux-3.2.1.zip",
+              "archiveFileName": "flip-linux-x86-3.2.1.zip",
+              "checksum": "SHA-256:3268e679a3fe84b4d048d5573cdff8b71e777a7e55912a80b3c518440d0e60e4",
+              "size": "1346059"
             }
           ]
         }
